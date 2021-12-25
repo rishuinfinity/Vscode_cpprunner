@@ -9,7 +9,7 @@ Run cpp files with input file and output file with  this shortcut.
 * Press Ctrl+Shift+P on VScode
 * Then type keyboard and select "Open Keyboard Shortcuts(JSON)"
 * Add the following in the []
-  '''
+  ```
   {
         "key": "ctrl+enter",
         "command": "workbench.action.terminal.sendSequence",
@@ -17,7 +17,7 @@ Run cpp files with input file and output file with  this shortcut.
           "text": "g++ -o ~/.cache/g++/files/temp.out $(pwd)/${fileBasename}; ~/.cache/g++/files/temp.out < $(pwd)/input.txt > $(pwd)/output.txt;\u000D"
         }
   }
-  '''
+  ```
 * You can modify the key to change the shortcut, by default it is ctrl+enter.
 
 # How to run
